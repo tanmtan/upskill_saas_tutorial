@@ -38,6 +38,7 @@ h1, h2, h3{
 
 }
 
+//Navstyles
 .navbar{
   background:#c31432;  
   
@@ -47,6 +48,22 @@ h1, h2, h3{
   font-family:"Open-Sans" , sans-serif;
   font-weight: 800;
 }
+
+.navbar-default  .navbar-toggle .icon-bar{
+  background: white;
+  border: 1px solid white;
+  }
+  
+.navbar-default  .navbar-toggle{
+    border: 2px solid white;
+    &:hover, &:focus{
+    background-color:#c31432;
+    opacity: 0.75;
+    }
+  }
+  
+  
+
 
 html {
     height: 100%;
@@ -73,5 +90,7 @@ body {
     opacity: 0.75;
   }
 }
+
+
 
 
