@@ -17,10 +17,16 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+@import 'font-awesome-sprockets';
+@import 'font-awesome' ;
+
+//Typogarphy Styles
 h1, h2, h3{
   font-family: 'Open Sans' , sans-serif;
 }
 
+
+//Background Gradient
 .home-callout{
   //gradient provided by https://twitter.com/_ighosh at uiGradients.com
   background: #c31432;  /* fallback for old browsers */
@@ -53,6 +59,7 @@ body {
   margin: 0;
 }
 
+//Homepage styles
 .navbar-default  .navbar-brand ,
 .navbar-default .navbar-nav > li > a {
   color: white;
